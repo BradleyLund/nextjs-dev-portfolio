@@ -6,6 +6,8 @@ export default function DarkModeSwitch() {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
     <IconButton
+      colorScheme="teal"
+      variant="ghost"
       aria-label="Toggle Dark Switch"
       icon={colorMode === "dark" ? <SunIcon /> : <MoonIcon />}
       onClick={toggleColorMode}
