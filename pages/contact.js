@@ -1,10 +1,10 @@
 import { Text, Heading, Flex, Stack } from "@chakra-ui/react";
 import Navbar from "../components/NavBar";
 
-export default function About() {
+export default function Contact() {
   return (
-    <Stack as="main" align="center">
-      <Flex flexDirection="column" maxWidth="700px">
+    <Stack as="main" align="center" width="800px">
+      <Flex align="center" flexDirection="column">
         <Navbar />
         <Heading>Contact</Heading>
         <Text>How to contact</Text>

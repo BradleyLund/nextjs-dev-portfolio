@@ -7,7 +7,7 @@ import Navbar from "../components/NavBar";
 export default function Home() {
   return (
     <Stack as="main" align="center">
-      <Flex flexDirection="column" maxWidth="700px">
+      <Flex flexDirection="column">
         <Navbar />
         <Heading>Hello, World!</Heading>
         <Text>Hello, again</Text>
