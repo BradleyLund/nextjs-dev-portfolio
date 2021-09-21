@@ -3,7 +3,7 @@ import Navbar from "../components/NavBar";
 
 export default function Contact() {
   return (
-    <Stack as="main" align="center" width="800px">
+    <Stack as="main" width="100%">
       <Flex align="center" flexDirection="column">
         <Navbar />
         <Heading>Contact</Heading>
