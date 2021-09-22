@@ -4,10 +4,7 @@ import styles from "../styles/Home.module.css";
 import { Text, Heading, Flex, Stack } from "@chakra-ui/react";
 import Navbar from "../components/NavBar";
 import remoteCoding from "../public/remoteCoding.svg";
-import { FaGithub } from "react-icons";
-import { IconButton, Icon } from "@chakra-ui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/dist/client/link";
 
