@@ -24,7 +24,7 @@ export default function Contact() {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </Link>
-            <Link href="https://github.com/BradleyLund">
+            <Link href="https://www.linkedin.com/in/bradley-lund/">
               <a className="logo">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>

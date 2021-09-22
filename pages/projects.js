@@ -1,14 +1,141 @@
 import { Text, Heading, Flex, Stack } from "@chakra-ui/react";
 import Navbar from "../components/NavBar";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import mineSweeper from "../public/minesweeper.svg";
+import Image from "next/image";
+import iTunesImage from "../public/iTunesImage.svg";
+import passportPals from "../public/passportPals.svg";
+import shopping from "../public/shopping.svg";
+import Link from "next/dist/client/link";
 
 export default function About() {
   return (
-    <Stack as="main" align="center">
-      <Flex flexDirection="column" maxWidth="700px">
-        <Navbar />
-        <Heading>Projects</Heading>
-        <Text>My best project</Text>
-      </Flex>
-    </Stack>
+    <div id="homeDiv">
+      <Navbar />
+
+      <Container>
+        <Row className="text-center" xs={1} md={2} lg={2}>
+          <Col>
+            <div className="projectClass">
+              <Image
+                width={250}
+                height={250}
+                src={mineSweeper}
+                alt="Minesweeper"
+              />
+              <h2 className="projectname">Minesweeper</h2>
+
+              <Link href="https://desolate-river-88180.herokuapp.com/">
+                <a>Live Application</a>
+              </Link>
+              <Link href="https://github.com/BradleyLund/react-minesweeper">
+                <a>Github Repository</a>
+              </Link>
+            </div>
+          </Col>
+          <Col>
+            <div className="projectClass">
+              <Image width={250} height={250} src={iTunesImage} alt="iTunes" />
+
+              <h2 className="projectname">iTunes Favourites API</h2>
+
+              <Link href="https://ancient-spire-93066.herokuapp.com/">
+                <a>Live Application</a>
+              </Link>
+              <Link href="https://github.com/BradleyLund/react-itunes-api">
+                <a>Github Repository</a>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+        <Row className="text-center" xs={1} md={2} lg={2}>
+          <Col>
+            <div className="projectClass">
+              <Image
+                width={250}
+                height={250}
+                src={passportPals}
+                alt="passportPals"
+              />
+              <h2 className="projectname">Passport Pals</h2>
+
+              <Link href="https://pacific-mountain-86944.herokuapp.com/">
+                <a>Live Application</a>
+              </Link>
+              <Link href="https://github.com/BradleyLund/PassportPals">
+                <a>Github Repository</a>
+              </Link>
+            </div>
+          </Col>
+          <Col>
+            <div className="projectClass">
+              <Image width={250} height={250} src={shopping} alt="shopping" />
+
+              <h2 className="projectname">emoji Ecommerce Concept Store</h2>
+
+              <Link href="https://bradleylund.github.io/emojiEcommerce/">
+                <a>Live Application</a>
+              </Link>
+              <Link href="https://github.com/BradleyLund/emojiEcommerce">
+                <a>Github Repository</a>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+
+      <style jsx>{`
+        .projectClass {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .projectname {
+          font-size: 30px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        #homeDiv {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+        #subtitle {
+          margin-top: 10px;
+          text-align: center;
+        }
+
+        #content {
+          margin-top: 60px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .logo {
+          font-size: 40px;
+        }
+
+        #logoDiv {
+          display: flex;
+          justify-content: space-evenly;
+          margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+          #content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+          }
+        }
+      `}</style>
+    </div>
   );
 }
