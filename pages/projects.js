@@ -39,12 +39,12 @@ export default function About() {
             <div className="projectClass">
               <Image width={250} height={250} src={iTunesImage} alt="iTunes" />
 
-              <h2 className="projectname">iTunes Favourites API</h2>
+              <h2 className="projectname">Africa Info: Country API </h2>
 
-              <Link href="https://ancient-spire-93066.herokuapp.com/">
+              <Link href="https://next-countries-api-px18tuu7i-bradleylund.vercel.app/">
                 <a>Live Application</a>
               </Link>
-              <Link href="https://github.com/BradleyLund/react-itunes-api">
+              <Link href="https://github.com/BradleyLund/Next-Countries-API">
                 <a>Github Repository</a>
               </Link>
             </div>
@@ -79,6 +79,22 @@ export default function About() {
                 <a>Live Application</a>
               </Link>
               <Link href="https://github.com/BradleyLund/emojiEcommerce">
+                <a>Github Repository</a>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+        <Row className="text-center" xs={1} md={2} lg={2}>
+          <Col>
+            <div className="projectClass">
+              <Image width={250} height={250} src={iTunesImage} alt="iTunes" />
+
+              <h2 className="projectname">iTunes Favourites API</h2>
+
+              <Link href="https://ancient-spire-93066.herokuapp.com/">
+                <a>Live Application</a>
+              </Link>
+              <Link href="https://github.com/BradleyLund/react-itunes-api">
                 <a>Github Repository</a>
               </Link>
             </div>
