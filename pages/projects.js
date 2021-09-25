@@ -99,6 +99,20 @@ export default function About() {
               </Link>
             </div>
           </Col>
+          <Col>
+            <div className="projectClass">
+              <Image width={250} height={250} src={iTunesImage} alt="iTunes" />
+
+              <h2 className="projectname">MERN fullstack todo Application</h2>
+
+              <Link href="https://mern-todo-fullstack.herokuapp.com/">
+                <a>Live Application</a>
+              </Link>
+              <Link href="https://github.com/BradleyLund/fullstack-todo">
+                <a>Github Repository</a>
+              </Link>
+            </div>
+          </Col>
         </Row>
       </Container>
 
