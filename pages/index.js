@@ -1,15 +1,14 @@
-import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import { Text, Heading, Flex, Stack } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
+
 import Navbar from "../components/NavBar";
 import remoteCoding from "../public/remoteCoding.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/dist/client/link";
 
-// can use this for changing alignment and flex direction etc when responsive
-// align={["flex-end", "center"]}
+// All images throughout the website were used from an opensource library which can be found here:
+//https://2.flexiple.com/scale/multi-color-illustrations
 
 export default function Home() {
   return (
@@ -40,7 +39,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-
+      {/* using the style jsx method to style this page */}
       <style jsx>{`
         #homeDiv {
           display: flex;

@@ -1,4 +1,4 @@
-import { Text, Heading, Flex, Stack } from "@chakra-ui/react";
+import { Heading } from "@chakra-ui/react";
 import Navbar from "../components/NavBar";
 import Image from "next/image";
 import campingPic from "../public/campingPic.svg";

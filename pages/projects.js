@@ -1,4 +1,3 @@
-import { Text, Heading, Flex, Stack } from "@chakra-ui/react";
 import Navbar from "../components/NavBar";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -9,6 +8,9 @@ import iTunesImage from "../public/iTunesImage.svg";
 import passportPals from "../public/passportPals.svg";
 import shopping from "../public/shopping.svg";
 import Link from "next/dist/client/link";
+
+// All images throughout the website were used from an opensource library which can be found here:
+//https://2.flexiple.com/scale/multi-color-illustrations
 
 export default function About() {
   return (

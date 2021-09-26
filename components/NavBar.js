@@ -1,9 +1,8 @@
 import DarkModeSwitch from "../components/DarkModeSwitch";
-import { Text, Heading, Flex, Stack } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import Link from "next/link";
-import { Button, ButtonGroup } from "@chakra-ui/react";
-import { AiFillHome } from "react-icons/fa";
-import { IconButton, Icon } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
+import { Icon } from "@chakra-ui/react";
 import { MdHome } from "react-icons/md";
 
 export default function NavBar() {
@@ -11,6 +10,8 @@ export default function NavBar() {
     <Flex direction="row" mt={5}>
       <Link href="/">
         <a>
+          {/* the fontsize variable gets passed the different sizes based on the size of the viewing device, chakra ui allows passing of
+        an array with the size values for the different screen sizes */}
           <Button
             fontSize={["sm", "md", "lg", "xl"]}
             colorScheme="teal"
