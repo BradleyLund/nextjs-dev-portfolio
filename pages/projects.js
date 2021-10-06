@@ -73,19 +73,22 @@ export default function About() {
           </Col>
           <Col>
             <div className="projectClass">
-              <Image width={250} height={250} src={shopping} alt="shopping" />
+              <Image width={250} height={250} src={iTunesImage} alt="iTunes" />
 
-              <h2 className="projectname">emoji Ecommerce Concept Store</h2>
+              <h2 className="projectname">
+                MERN fullstack MathsTracker Application
+              </h2>
 
-              <Link href="https://bradleylund.github.io/emojiEcommerce/">
+              <Link href="https://heroku-todo-test.herokuapp.com/">
                 <a>Live Application</a>
               </Link>
-              <Link href="https://github.com/BradleyLund/emojiEcommerce">
+              <Link href="https://github.com/BradleyLund/maths-tracker">
                 <a>Github Repository</a>
               </Link>
             </div>
           </Col>
         </Row>
+
         <Row className="text-center" xs={1} md={2} lg={2}>
           <Col>
             <div className="projectClass">
@@ -111,6 +114,22 @@ export default function About() {
                 <a>Live Application</a>
               </Link>
               <Link href="https://github.com/BradleyLund/fullstack-todo">
+                <a>Github Repository</a>
+              </Link>
+            </div>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <div className="projectClass">
+              <Image width={250} height={250} src={shopping} alt="shopping" />
+
+              <h2 className="projectname">emoji Ecommerce Concept Store</h2>
+
+              <Link href="https://bradleylund.github.io/emojiEcommerce/">
+                <a>Live Application</a>
+              </Link>
+              <Link href="https://github.com/BradleyLund/emojiEcommerce">
                 <a>Github Repository</a>
               </Link>
             </div>
