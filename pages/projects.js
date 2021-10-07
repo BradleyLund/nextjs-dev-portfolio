@@ -30,10 +30,14 @@ export default function About() {
               <h2 className="projectname">Minesweeper</h2>
 
               <Link href="https://desolate-river-88180.herokuapp.com/">
-                <a>Live Application</a>
+                <a>
+                  <u>Live Application</u>
+                </a>
               </Link>
               <Link href="https://github.com/BradleyLund/react-minesweeper">
-                <a>Github Repository</a>
+                <a>
+                  <u>Github Repository</u>
+                </a>
               </Link>
             </div>
           </Col>
@@ -44,10 +48,14 @@ export default function About() {
               <h2 className="projectname">Africa Info: Country API </h2>
 
               <Link href="https://next-countries-api-px18tuu7i-bradleylund.vercel.app/">
-                <a>Live Application</a>
+                <a>
+                  <u>Live Application</u>
+                </a>
               </Link>
               <Link href="https://github.com/BradleyLund/Next-Countries-API">
-                <a>Github Repository</a>
+                <a>
+                  <u>Github Repository</u>
+                </a>
               </Link>
             </div>
           </Col>
@@ -64,10 +72,14 @@ export default function About() {
               <h2 className="projectname">Passport Pals</h2>
 
               <Link href="https://pacific-mountain-86944.herokuapp.com/">
-                <a>Live Application</a>
+                <a>
+                  <u>Live Application</u>
+                </a>
               </Link>
               <Link href="https://github.com/BradleyLund/PassportPals">
-                <a>Github Repository</a>
+                <a>
+                  <u>Github Repository</u>
+                </a>
               </Link>
             </div>
           </Col>
@@ -80,10 +92,14 @@ export default function About() {
               </h2>
 
               <Link href="https://heroku-todo-test.herokuapp.com/">
-                <a>Live Application</a>
+                <a>
+                  <u>Live Application</u>
+                </a>
               </Link>
               <Link href="https://github.com/BradleyLund/maths-tracker">
-                <a>Github Repository</a>
+                <a>
+                  <u>Github Repository</u>
+                </a>
               </Link>
             </div>
           </Col>
@@ -97,10 +113,14 @@ export default function About() {
               <h2 className="projectname">iTunes Favourites API</h2>
 
               <Link href="https://ancient-spire-93066.herokuapp.com/">
-                <a>Live Application</a>
+                <a>
+                  <u>Live Application</u>
+                </a>
               </Link>
               <Link href="https://github.com/BradleyLund/react-itunes-api">
-                <a>Github Repository</a>
+                <a>
+                  <u>Github Repository</u>
+                </a>
               </Link>
             </div>
           </Col>
@@ -111,10 +131,14 @@ export default function About() {
               <h2 className="projectname">MERN fullstack todo Application</h2>
 
               <Link href="https://mern-todo-fullstack.herokuapp.com/">
-                <a>Live Application</a>
+                <a>
+                  <u>Live Application</u>
+                </a>
               </Link>
               <Link href="https://github.com/BradleyLund/fullstack-todo">
-                <a>Github Repository</a>
+                <a>
+                  <u>Github Repository</u>
+                </a>
               </Link>
             </div>
           </Col>
@@ -127,10 +151,14 @@ export default function About() {
               <h2 className="projectname">emoji Ecommerce Concept Store</h2>
 
               <Link href="https://bradleylund.github.io/emojiEcommerce/">
-                <a>Live Application</a>
+                <a>
+                  <u>Live Application</u>
+                </a>
               </Link>
               <Link href="https://github.com/BradleyLund/emojiEcommerce">
-                <a>Github Repository</a>
+                <a>
+                  <u>Github Repository</u>
+                </a>
               </Link>
             </div>
           </Col>
