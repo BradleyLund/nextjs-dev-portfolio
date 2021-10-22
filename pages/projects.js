@@ -143,7 +143,7 @@ export default function About() {
             </div>
           </Col>
         </Row>
-        <Row>
+        <Row className="text-center" xs={1} md={2} lg={2}>
           <Col>
             <div className="projectClass">
               <Image width={250} height={250} src={shopping} alt="shopping" />
